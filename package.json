@@ -4,6 +4,8 @@
   "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
+    "watch-sass": "sass sass/main.scss css/style.comp.css --watch",
+    "compile-sass": "sass sass/main.scss css/style.comp.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +13,7 @@
     "url": "git+https://github.com/samsonsham/qr-code-component-main.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Samson Sham",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/samsonsham/qr-code-component-main/issues"

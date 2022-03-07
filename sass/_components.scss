@@ -1,0 +1,21 @@
+.card {
+  width: 300px;
+  padding: 15px;
+  background-color: $white;
+  font-family: $font_family_outfit;
+  text-align: center;
+  border-radius: 20px;
+  img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    color: $dark_blue;
+  }
+  p {
+    font-size: $para_font_size;
+    color: $grayish_blue;
+    padding: 10px;
+  }
+}
