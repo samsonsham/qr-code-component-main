@@ -3,22 +3,24 @@ $white: hsl(0, 0%, 100%);
 $light_gray: hsl(212, 45%, 89%);
 $grayish_blue: hsl(220, 15%, 55%);
 $dark_blue: hsl(218, 44%, 22%);
+$para_font_size: 15px;
+$font_family_outfit: "Outfit", sans-serif;
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: $light_gray;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: $light_gray;
 }
 
 #main {
   width: 300px;
   padding: 15px;
   background-color: $white;
-  font-family: "Outfit", sans-serif;
+  font-family: $font_family_outfit;
   text-align: center;
   border-radius: 20px;
   img {
@@ -30,7 +32,7 @@ body {
     color: $dark_blue;
   }
   p {
-    font-size: 15px;
+    font-size: $para_font_size;
     color: $grayish_blue;
     padding: 10px;
   }
