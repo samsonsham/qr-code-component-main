@@ -1,0 +1,45 @@
+/* define primary colors */
+$white: hsl(0, 0%, 100%);
+$light_gray: hsl(212, 45%, 89%);
+$grayish_blue: hsl(220, 15%, 55%);
+$dark_blue: hsl(218, 44%, 22%);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $light_gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main {
+  width: 300px;
+  padding: 15px;
+  background-color: $white;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    color: $dark_blue;
+  }
+  p {
+    font-size: 15px;
+    color: $grayish_blue;
+    padding: 10px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

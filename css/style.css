@@ -1,0 +1,43 @@
+/* define primary colors */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main {
+  width: 300px;
+  padding: 15px;
+  background-color: white;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  border-radius: 20px;
+}
+#main img {
+  width: 100%;
+  border-radius: 15px;
+}
+#main h1 {
+  font-size: 1.5rem;
+  color: #1f3251;
+}
+#main p {
+  font-size: 15px;
+  color: #7b879d;
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
