@@ -1,12 +1,12 @@
 /* define primary colors */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #d6e2f0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #d6e2f0;
 }
 
 #main {
@@ -34,6 +34,8 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 10px;
 }
 
 .attribution a {

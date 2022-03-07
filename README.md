@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](https://ik.imagekit.io/c5xc1x6srka/screenshot/screen-qr-code_iQK_yRd8AxK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646671016571)
+![](https://ik.imagekit.io/c5xc1x6srka/screenshot/screen-qr-code2_jhh0JsDuo.png)
 
 ### Links
 
