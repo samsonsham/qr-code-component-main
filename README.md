@@ -10,7 +10,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -51,8 +53,31 @@ body {
 }
 ```
 
+### Useful Resources
+
+These 2 articles give me the ideas of structure my scss files in my project:
+
+- [Structuring your Sass Projects](https://itnext.io/structuring-your-sass-projects-c8d41fa55ed4)
+- [2 SMARTEST WAYS TO STRUCTURE SASS](https://www.webdesignerdepot.com/2020/12/2-smartest-ways-to-structure-sass/)
+
+I learnt the concept of BEM from this article which guide me to build a well structured DOM:
+
+- [BEM Document](https://en.bem.info/methodology/quick-start/#block)
+
+I learnt to use main tag from this article:
+
+- [What is the purpose of the <main> tag in HTML?](https://dev.to/srijan1709/what-is-the-purpose-of-the-main-tag-in-html-3hno)
+
+This article answered my question of using classes without any CSS style behind.
+
+- [Can I use non existing CSS classes?](https://stackoverflow.com/questions/18701670/can-i-use-non-existing-css-classes)
+
 ## Author
 
 - Website - [Samson Sham](https://samson-sham-portfolio.vercel.app)
 - Frontend Mentor - [@samsonsham](https://www.frontendmentor.io/profile/samsonsham)
 - Twitter - [@samson_sham](https://www.twitter.com/samson_sham)
+
+### Acknowledgments
+
+I would like to thank [@CyrusKabir](https://www.frontendmentor.io/profile/CyrusKabir) for valuable comments and has given me useful articles for my reference. They are helpful for not only improving my code base structure and code readability, but also understand the concept.
